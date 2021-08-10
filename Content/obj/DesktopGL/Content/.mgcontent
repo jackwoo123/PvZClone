@@ -6,9 +6,11 @@
   <SourceFiles>
     <File>C:/Users/jackp/OneDrive/Desktop/C#/PvZClone/Content/PvZGrid.png</File>
     <File>C:/Users/jackp/OneDrive/Desktop/C#/PvZClone/Content/SeedSprites.png</File>
+    <File>C:/Users/jackp/OneDrive/Desktop/C#/PvZClone/Content/Sun.png</File>
     <File>C:/Users/jackp/OneDrive/Desktop/C#/PvZClone/Content/SunFlowerSprite.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
