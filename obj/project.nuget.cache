@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "QMQ4ymYztRa7Fi4U5G93gIbUsrkc81QMW9ffqXK/vos3HPnwmtq1rpXpT4bi6uCut//GqBaTt/viUcq4Aci8NQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jackp\\OneDrive\\Desktop\\C#\\PvZClone\\PvZClone.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jackp\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\jackp\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\jackp\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.14\\microsoft.netcore.app.host.win-x64.3.1.14.nupkg.sha512"
+  ],
+  "logs": []
+}

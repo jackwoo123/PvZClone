@@ -1,0 +1,4 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/jackp/OneDrive/Desktop/C#/PvZClone/Content/PvZGrid.png","C:/Users/jackp/OneDrive/Desktop/C#/PvZClone/Content/bin/DesktopGL/Content/PvZGrid.xnb","TextureProcessor","Texture2DContent",452185,1296085,0.1559619
+"C:/Users/jackp/OneDrive/Desktop/C#/PvZClone/Content/SeedSprites.png","C:/Users/jackp/OneDrive/Desktop/C#/PvZClone/Content/bin/DesktopGL/Content/SeedSprites.xnb","TextureProcessor","Texture2DContent",7663,58837,0.1419438
+"C:/Users/jackp/OneDrive/Desktop/C#/PvZClone/Content/SunFlowerSprite.png","C:/Users/jackp/OneDrive/Desktop/C#/PvZClone/Content/bin/DesktopGL/Content/SunFlowerSprite.xnb","TextureProcessor","Texture2DContent",1991,17365,0.0113714
