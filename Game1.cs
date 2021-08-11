@@ -25,8 +25,12 @@ namespace PvZClone
         Texture2D gardenOverlay;
         Texture2D seeds_sprite;
         Texture2D Sunflower_sprite;
+        Texture2D Sun_Counter;
         List<SunFlower> plants = new List<SunFlower>();
         List<List<gridSquare>> grid = new List<List<gridSquare>>();
+
+        //sun Manager;
+        SunManager SunManager = new SunManager();
 
         //mouse dragging
         Boolean dragged = false;
@@ -46,18 +50,15 @@ namespace PvZClone
             _graphics.PreferredBackBufferHeight = 480;
 
             List<gridSquare> row=new List<gridSquare>(7);
-            //TODO: implement a drag and drop system where the closet square is chosen.
             for(int i = 0; i < 5; i++)  //rows
             {
                 for(int j = 0; j < 8; j++)  //columns for each row.
-                {
-
+              {
                     int x = (j * 70) + 43;
                     int y = (i * 80) + 80;
 
                     row.Add(new gridSquare(x, y, false));
                     System.Diagnostics.Debug.WriteLine(x + " " + y);
-
                 }
                 grid.Add(row);
                 row = new List<gridSquare>(7);
@@ -73,6 +74,8 @@ namespace PvZClone
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             gardenOverlay = Content.Load<Texture2D>("PvZGrid");
             seeds_sprite = Content.Load<Texture2D>("SeedSprites");
+            Sun_Counter = Content.Load<Texture2D>("Sun");
+
             //sunflower stuff
             Sunflower_sprite = Content.Load<Texture2D>("SunFlowerSprite");
 
@@ -110,8 +113,8 @@ namespace PvZClone
            {
                 //Need to check if closest grid space is open.  start with 0,0
 
-                int column = (mousePosition.X-80)/70;
-                int row = (mousePosition.Y-80) / 80;
+                int column = (mousePosition.X-45)/70;
+                int row = (mousePosition.Y-70) / 80;
                 //TODO:Fix this somehow
                 if (row<5 && column <8 && !grid[row][column].IsOccupied())
                 {
@@ -141,6 +144,8 @@ namespace PvZClone
             _spriteBatch.Begin();
             _spriteBatch.Draw(seeds_sprite, new Vector2(0, 0), Color.White);
             _spriteBatch.Draw(gardenOverlay, new Vector2(0, 50), Color.White);
+            _spriteBatch.Draw(Sun_Counter, new Vector2(600, 0), Color.White);
+
             _spriteBatch.End();
 
             foreach(SunFlower flower in plants)

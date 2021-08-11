@@ -1,5 +1,6 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/jackp/OneDrive/Desktop/C#/PvZClone/Content/numberSprite.png","C:/Users/jackp/OneDrive/Desktop/C#/PvZClone/Content/bin/DesktopGL/Content/numberSprite.xnb","TextureProcessor","Texture2DContent",3367,220437,0.1102143
 "C:/Users/jackp/OneDrive/Desktop/C#/PvZClone/Content/PvZGrid.png","C:/Users/jackp/OneDrive/Desktop/C#/PvZClone/Content/bin/DesktopGL/Content/PvZGrid.xnb","TextureProcessor","Texture2DContent",452185,1296085,0.1559619
 "C:/Users/jackp/OneDrive/Desktop/C#/PvZClone/Content/SeedSprites.png","C:/Users/jackp/OneDrive/Desktop/C#/PvZClone/Content/bin/DesktopGL/Content/SeedSprites.xnb","TextureProcessor","Texture2DContent",7663,58837,0.1419438
-"C:/Users/jackp/OneDrive/Desktop/C#/PvZClone/Content/Sun.png","C:/Users/jackp/OneDrive/Desktop/C#/PvZClone/Content/bin/DesktopGL/Content/Sun.xnb","TextureProcessor","Texture2DContent",24364,74065,0.1431537
+"C:/Users/jackp/OneDrive/Desktop/C#/PvZClone/Content/Sun.png","C:/Users/jackp/OneDrive/Desktop/C#/PvZClone/Content/bin/DesktopGL/Content/Sun.xnb","TextureProcessor","Texture2DContent",2908,10489,0.102006
 "C:/Users/jackp/OneDrive/Desktop/C#/PvZClone/Content/SunFlowerSprite.png","C:/Users/jackp/OneDrive/Desktop/C#/PvZClone/Content/bin/DesktopGL/Content/SunFlowerSprite.xnb","TextureProcessor","Texture2DContent",1991,17365,0.0113714

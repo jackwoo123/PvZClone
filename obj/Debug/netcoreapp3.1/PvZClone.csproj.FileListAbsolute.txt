@@ -24,3 +24,5 @@ C:\Users\jackp\OneDrive\Desktop\C#\PvZClone\obj\Debug\netcoreapp3.1\PvZClone.gen
 C:\Users\jackp\OneDrive\Desktop\C#\PvZClone\bin\Debug\netcoreapp3.1\Content\PvZGrid.xnb
 C:\Users\jackp\OneDrive\Desktop\C#\PvZClone\bin\Debug\netcoreapp3.1\Content\SeedSprites.xnb
 C:\Users\jackp\OneDrive\Desktop\C#\PvZClone\bin\Debug\netcoreapp3.1\Content\SunFlowerSprite.xnb
+C:\Users\jackp\OneDrive\Desktop\C#\PvZClone\bin\Debug\netcoreapp3.1\Content\Sun.xnb
+C:\Users\jackp\OneDrive\Desktop\C#\PvZClone\bin\Debug\netcoreapp3.1\Content\numberSprite.xnb
